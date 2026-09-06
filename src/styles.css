@@ -4,3 +4,20 @@
 @media(max-width:620px){.container{width:min(calc(100% - 28px),var(--max))}.section{padding:4.5rem 0}.hero{padding:130px 0 70px}.hero__grid{gap:2rem}.hero__art{aspect-ratio:1}.hero__card{width:72%;padding:10%}.hero__card .brand-mark{transform:none}.hero__card p{font-size:.62rem}.button-row{flex-direction:column}.button-row .button{width:100%}.quality-grid{grid-template-columns:1fr}.collection-grid{grid-template-columns:1fr}.collection-card:last-child{grid-column:auto}.collection-card{min-height:370px}.tabs{justify-content:flex-start;overflow-x:auto}.tabs button{white-space:nowrap}.chart-frame{min-height:380px}.policy-grid{grid-template-columns:1fr 1fr}.policy-grid article{min-height:160px;padding:1.1rem}.coming{grid-template-columns:1fr}.coming__art .asset-placeholder{min-height:350px}.footer__top,.footer__bottom{flex-direction:column}.footer__top nav{margin-top:1rem}.footer__bottom{gap:.4rem}.modal{padding:.5rem}.modal__dialog{max-height:calc(100dvh - 1rem)}}
 @media(max-width:370px){h1{font-size:2.8rem}.policy-grid{grid-template-columns:1fr}.value-grid{grid-template-columns:1fr}.footer__top nav{grid-template-columns:1fr}.hero__card{width:80%}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+/* Official MK Medi Care artwork integration */
+.brand-mark--official{width:118px;height:54px;overflow:hidden}
+.brand-mark--official img{width:100%;height:100%;object-fit:contain}
+.hero__card .brand-mark--official{width:100%;height:auto;transform:none;position:relative;z-index:1}
+.hero__card .brand-mark--official img{width:100%;height:auto;aspect-ratio:712/532}
+.chart-button{display:block;width:min(100%,680px);margin-inline:auto}
+.chart-button img{width:100%;height:auto;object-fit:contain}
+.text-link--center{margin-inline:auto}
+.coming__art img{width:100%;height:auto;object-fit:contain}
+.contact-links a{min-width:min(100%,300px);background:#fff;border:1px solid var(--mk-border);padding:1rem 1.25rem;text-align:left;display:flex;flex-direction:column;transition:.2s ease}
+.contact-links a:hover{border-color:var(--mk-blue);transform:translateY(-2px)}
+.contact-links a span{color:var(--mk-muted);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase}
+.contact-links a strong{overflow-wrap:anywhere}
+.modal__head{flex:0 0 auto;background:#fff;z-index:2}
+.modal__body img{max-height:none;width:min(100%,853px);height:auto;object-fit:contain}
+@media(max-width:620px){.brand-mark--official{width:102px;height:48px}.hero__card .brand-mark--official{width:100%;height:auto}.contact-links{flex-direction:column}.contact-links a{width:100%}}
