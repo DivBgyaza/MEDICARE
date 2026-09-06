@@ -5,6 +5,7 @@ import maleRegular from '../assets/mk-medicare/MK CHAT 1.png'
 import combinedSizeChart from '../assets/mk-medicare/MK FULL CHAT.png'
 import businessPolicy from '../assets/mk-medicare/MK BUSINESS POLICY.jpeg'
 import comingSoon from '../assets/mk-medicare/MK COMING SOON.jpeg'
+import collectionFour from '../assets/mk-medicare/collections/scrub-collection-4.png'
 
 export const brand = {
   name: 'MK Medi Care',
@@ -17,13 +18,14 @@ export const brand = {
 }
 
 export const assets = {
-  logo, femaleRegular, femaleModest, maleRegular, combinedSizeChart, businessPolicy, comingSoon,
+  logo, femaleRegular, femaleModest, maleRegular, combinedSizeChart, businessPolicy, comingSoon, collectionFour,
 }
 
 export const sizeGuides = [
   { id: 'female-regular', label: 'Female Regular', image: assets.femaleRegular, available: true, alt: 'MK Medi Care Female Regular Scrub size chart', width: 1024, height: 1536 },
   { id: 'female-modest', label: 'Female Modest', image: assets.femaleModest, available: true, alt: 'MK Medi Care Female Modest Scrub Set size chart', width: 1024, height: 1536 },
   { id: 'male-regular', label: 'Male Regular', image: assets.maleRegular, available: true, alt: 'MK Medi Care Male Regular Scrub size chart', width: 1024, height: 1536 },
+  { id: 'scrub-collection-4', label: 'Scrub Collection 4', image: assets.collectionFour, available: true, alt: 'Scrub Collection 4 official MK Medi Care artwork', width: 1024, height: 1536 },
 ]
 
 export const policyCategories = [
