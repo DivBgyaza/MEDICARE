@@ -1,0 +1,3 @@
+import BrandMark from './BrandMark.jsx'
+const links=[['Home','home'],['About','about'],['Collections','collections'],['Size Guide','size-guide'],['Policy','policy'],['Why MK','why-mk'],['Contact','contact']]
+export default function Footer(){return <footer><div className="container footer__top"><div><BrandMark light/><p>Every Shift Matters.</p><small>Quality. Comfort. Confidence.</small></div><nav aria-label="Footer navigation">{links.map(([l,id])=><a href={`#${id}`} key={id}>{l}</a>)}</nav></div><div className="container footer__bottom"><span>© {new Date().getFullYear()} MK Medi Care</span><span>Healthcare apparel for every shift.</span></div></footer>}
