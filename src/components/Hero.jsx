@@ -4,10 +4,10 @@ export default function Hero() {
   return <section id="home" className="hero">
     <div className="container hero__grid">
       <div className="hero__copy reveal">
-        <p className="eyebrow">Healthcare apparel</p>
+        <p className="eyebrow">Healthcare apparel &amp; accessories</p>
         <h1>Made for<br/><em>Every Shift.</em></h1>
         <p className="hero__tagline">Every Shift Matters.</p>
-        <p className="hero__intro">Quality, comfortable and reliable healthcare essentials for healthcare professionals.</p>
+        <p className="hero__intro">Premium healthcare apparel and practical work essentials for healthcare professionals and students.</p>
         <div className="button-row"><a className="button" href="#collections">Explore Our Collection</a><a className="button button--outline" href="#size-guide">View Size Guide</a></div>
       </div>
       <div className="hero__art" aria-label="MK Medi Care brand composition">

@@ -10,12 +10,27 @@ import collectionFour from '../assets/mk-medicare/collections/scrub-collection-4
 export const brand = {
   name: 'MK Medi Care',
   tagline: 'Every Shift Matters.',
-  statement: 'We are committed to providing quality, comfortable, and reliable healthcare essentials for every healthcare professional.',
+  statement: 'MK Medicare is a Nigerian healthcare apparel and accessories brand providing premium, practical work essentials for healthcare professionals and students.',
+  aboutHeading: 'A Healthcare Lifestyle Brand Built for Every Shift',
+  aboutParagraphs: [
+    'MK Medicare is a Nigerian healthcare apparel and accessories brand established to provide premium-quality medical scrubs, healthcare footwear, work bags, and medical accessories to healthcare professionals and students.',
+    'We are a healthcare lifestyle brand created with a simple vision: to make quality, stylish, and practical work essentials accessible to healthcare professionals.',
+    'At MK Medicare, we believe healthcare professionals deserve products that are functional and durable, as well as comfortable and stylish.',
+  ],
   contacts: {
     phone: { label: 'Phone', display: '0912 603 4647', href: 'tel:+2349126034647' },
     email: { label: 'Email', display: 'Maikudimaryam16@gmail.com', href: 'mailto:Maikudimaryam16@gmail.com' },
   },
 }
+
+export const providedCategories = [
+  ['quality', 'Medical Scrubs'],
+  ['comfort', 'Clogs & Sneakers'],
+  ['people', 'Stethoscopes'],
+  ['confidence', 'Badge Reels'],
+  ['quality', 'Work Bags'],
+  ['comfort', 'Nursing & Medical Accessories'],
+]
 
 export const assets = {
   logo, femaleRegular, femaleModest, maleRegular, combinedSizeChart, businessPolicy, comingSoon, collectionFour,
