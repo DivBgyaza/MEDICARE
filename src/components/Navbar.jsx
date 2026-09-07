@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import BrandMark from './BrandMark.jsx'
 
-const links = [['Home','home'],['About','about'],['Collections','collections'],['Size Guide','size-guide'],['Policy','policy'],['Why MK','why-mk'],['Contact','contact']]
+const links = [['Home','home'],['About MK','about'],['Collections','collections'],['Size Guide','size-guide'],['Contact','contact']]
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
