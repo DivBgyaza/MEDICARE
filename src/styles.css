@@ -30,6 +30,8 @@
 #policy .section-heading>p{color:var(--mk-muted)}
 #policy .eyebrow{color:var(--mk-blue)}
 #policy .button--light{background:var(--mk-navy);border-color:var(--mk-navy);color:#fff}
+#policy .policy-grid h3{color:#fff}
+#policy .policy-grid p{color:#d5e2ec}
 #why-mk{background:var(--mk-navy);color:#fff}
 #why-mk .eyebrow{color:#aec9dc}
 #why-mk .value-grid{background:#35536e}
